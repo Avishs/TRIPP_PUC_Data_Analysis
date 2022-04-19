@@ -1,0 +1,25 @@
+---
+title: "PUCC Data analysis"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  html_notebook: default
+---
+
+```{r}
+library(dplyr)
+library(ggplot2)
+```
+
+
+
+```{r}
+PUCC_data <- read.csv("vt_pucc_issue_DL_23_03_2022.csv")
+
+```
+
+```{r}
+
+```
+
